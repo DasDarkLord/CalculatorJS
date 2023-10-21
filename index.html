@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link href="style.css" rel="stylesheet"></link>
+    <script src="index.js"></script>
+</head>
+<body>
+    <div class="elements">
+        <label for="expression-in"></label><input
+            type="text"
+            id = "expression-in"
+            onchange="expressionHandler();"
+            oninput="expressionHandler();"
+            onkeypress="expressionHandler();"
+            onpaste="expressionHandler();">
+        <p id="expression-out"></p> 
+    </div>
+</body>
+</html>
