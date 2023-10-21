@@ -7,3 +7,5 @@ this is like my second time ever doing javascript
 
 
 u can calculate on https://dasdarklord.net/calculator
+
+python version: https://github.com/DasDarkLord/CalculatorPy
